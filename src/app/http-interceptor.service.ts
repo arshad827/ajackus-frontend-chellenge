@@ -2,6 +2,8 @@ import { Injectable, Injector } from "@angular/core";
 import { Observable, of } from "rxjs";
 import { HttpInterceptor, HttpEvent, HttpResponse, HttpRequest, HttpHandler } from '@angular/common/http';
 
+//** Created an Api interceptor for intercepting the incoming requests */
+
 @Injectable()
 
 export class BackendInterceptorComponent implements HttpInterceptor {
