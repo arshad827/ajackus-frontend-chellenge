@@ -1,0 +1,30 @@
+<div class="parent">
+  <div>
+    <span><img src="..//..//assets//search.png"></span>
+  </div>
+  <p>Please Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
+  <hr>
+  <form (ngSubmit)="onsubmit(signUp)" [formGroup]="signUp">
+    <div class="parent-form">
+      <label>Name</label>
+      <input type="text" formControlName="name" class="ng-valid"
+        placeholder="Enter Vegetable Name">
+    </div>
+
+    <div class="parent-form">
+      <label>Name</label>
+      <input type="email" formControlName="email" class="ng-valid"
+        placeholder="Email">
+    </div>
+
+    <div class="parent-form">
+      <label>Phone Number</label>
+      <input type="number" formControlName="phoneNumber" placeholder="Type a Phone Number">
+    </div>
+
+    <div class="parent-form text-center">
+      <button>SignUp</button>
+    </div>
+
+  </form>
+</div>

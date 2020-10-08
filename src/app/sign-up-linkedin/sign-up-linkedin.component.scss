@@ -1,0 +1,113 @@
+// Using BEM more details on http://getbem.com/introduction/
+.parent{
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+
+    &-asset-building{
+        width: 100%;
+        height: auto;
+    }
+     h3 {
+        color: red;
+        font-size: 52px;
+        margin-bottom: 15px;
+
+      }
+
+     p{
+            margin-bottom: 40px;
+            margin-top: 0;
+        }
+
+      a{
+        font-size: 15px;
+        font-weight: 600;        
+        text-transform: uppercase;
+        text-decoration: none;
+        color: red;
+        border: 2px solid;
+        padding: 10px 30px; 
+        margin-top: 10px;
+        cursor: pointer;
+      }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+    .parent{
+         position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 400px;
+
+        h3 {            
+            font-size: 24px;            
+          }
+          p{
+              font-size: 15px;
+          }
+    }
+
+/* Styles */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+.parent{
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 400px;
+    h3 {            
+        font-size: 26px;            
+      }
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+.parent{
+    h3 {            
+        font-size: 26px;            
+      }
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+.parent{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 400px;
+
+
+    h3 {            
+        font-size: 26px;            
+      }
+}
+}

@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: compact_regular;
+    src: url(assets/fonts/SF-Compact-Display-Regular.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: compact_bold;
+    src: url(assets/fonts/SF-Compact-Display-Bold.otf) format("opentype");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: compact_bold;
+  }
+
+  p, a, label{
+    font-family: compact_regular;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */    
+    opacity: 0.6; /* Firefox */
+  }
+  
+  form .ng-valid{
+    background: #000 !important;
+    opacity: 0.8;
+    color: #fff;
+}
+.text-center{
+    text-align: center !important;
+}
